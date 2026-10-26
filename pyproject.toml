@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools==84.2.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alias-migration-matrix"
+version = "0.1.0"
+description = "Generate payload witnesses for rejected aliases and changed precedence during a model migration."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = ["pydantic==2.14.1"]
+
+[project.scripts]
+alias-migration-matrix = "alias_migration_matrix:main"
+
+[tool.setuptools]
+py-modules = ["alias_migration_matrix"]

@@ -1,0 +1,1 @@
+{"old":{"fields":[{"name":"asset","type":"str","aliases":["id","asset_id"]}]},"new":{"fields":[{"name":"asset","type":"str","aliases":["asset_id","id"]}]}}
